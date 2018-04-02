@@ -1,0 +1,54 @@
+body{
+  text-align: center;
+  background-color:#556;
+  background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
+  linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+  background-size:80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+.container{
+  margin: auto;
+  width: 80%;
+}
+
+.box{
+  margin-top: 1em;
+  background-color: #445;
+  color: white;
+  text-shadow: .1em .1em .2em black;
+  font-size: 24px;
+  box-shadow: 0 0 5px 2px #282a2d;
+}
+
+header{
+  font-size: 48px;
+  background-color: #33fcff;
+  background: linear-gradient(to right, #30b7ba, #33fcff, #30b7ba);
+  box-shadow: 0 0 5px 2px #282a2d;
+}
+
+#landingImage{
+  box-shadow: 0 0 5px 2px #282a2d;
+  margin-top: 1em;
+  height: 500px;
+  background-size: 100%;
+  background-image: url(../images/landingImage.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#landingText{
+  padding: 3em;
+  font-size: 48px;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+#landingText h6{
+  text-shadow: 0.1em .1em .5em white;
+  color: #30b7ba;
+}
