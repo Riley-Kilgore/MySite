@@ -1,3 +1,8 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 body{
   text-align: center;
   background-color:#556;
@@ -9,6 +14,46 @@ body{
   linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
   background-size:80px 140px;
   background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+#showcase{
+  background-image:url('../images/landing.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  color: white;
+  text-shadow: .1em .1em .2em black;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#white;
+  text-shadow: .1em .1em .2em black;
+  border:#white 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+#showcase .button:hover{
+  background:#926239;
+  color:#fff;
 }
 
 .container{
@@ -28,24 +73,6 @@ body{
 
 h3{
   text-align: center;
-}
-
-header{
-  font-size: 48px;
-  background-color: #33fcff;
-  background: linear-gradient(to right, #30b7ba, #33fcff, #30b7ba);
-  box-shadow: 0 0 5px 2px #282a2d;
-}
-
-#landingImage{
-  margin: 0;
-  padding: 0;
-  box-shadow: 0 0 5px 2px #282a2d;
-  height: 500px;
-  background-size: 100%;
-  background-image: url(../images/landingImage.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
 }
 
 #landingText{
